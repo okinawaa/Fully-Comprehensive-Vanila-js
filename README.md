@@ -19,3 +19,8 @@ Vanilla JS는 세계 전역에 침투되어있다.
 JavaScript 에 대한 본질은 흔들리면 안된다고 생각하기에
 이번 기회에 JavaScript 그 본질을 좀 더 깊게 공부해보려고 한다.
 ```
+
+## List
+
+- generator
+- 
