@@ -45,6 +45,12 @@ scope chain(스코프 체인, 자신과 상위 스코프들의 변수객체입�
 
 
 
+---
+
+### 참고 문서
+
+- [김민수님 깃허브](https://github.com/minsoo-web/es_features/blob/master/etc/execution_context.md)
+- [zeroCho님 블로그](https://www.zerocho.com/category/Javascript/post/5740531574288ebc5f2ba97e)  
 
 
 
