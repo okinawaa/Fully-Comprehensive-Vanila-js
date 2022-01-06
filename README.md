@@ -26,5 +26,5 @@ JavaScript 에 대한 본질은 흔들리면 안된다고 생각하기에
 
 처음부터 끝까지가 아닌, 현재 모르는 것 그리고 기억해야 하는 것 참신한 것 위주로 정리해보려고 합니다.
 
-- generator
+- [generator](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/generator)
 - 
