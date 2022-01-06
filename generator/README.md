@@ -85,3 +85,13 @@ gen.next('mayonnaise'); // mayonnaise
 gen.next() 를 처음에 호출하면 처음 yield 를 만나기 전까지 진행이 되고, 두번째로 pretzel 을 인자로 주면서 호출되면 그 방금 넘긴 pretzel 을 인자로 받자마자 yield 를 로그에 찍으니 pretzel 이 찍히고 다음 yield 를 만나서 진행을 멈추는 것입니다. 위처럼 generator 에 인자값을 넘길수도 있습니다. 다른 예제와 달리  gen.next("string") 으로도 값이 찍히네요 .value 가 
 
 ---
+
+## Summary
+
+Java 에서 Iterable 과 Iterator 를 공부했어서 다소 처음보는 내용이지만 이해하기 쉬웠던 것 같다.
+
+
+
+## 참고 문서
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
