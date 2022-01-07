@@ -240,6 +240,32 @@ getData() 함수의 프로미스에서 resolve() 메서드를 호출하여 정�
 then()의 첫 번째 콜백 함수 내부에서 오류가 나는 경우 오류를 제대로 잡아내지 못합니다. (추후 에러는 못잡는다는 것이죠)
 
 
+
+### 프로미스 인스턴스 체크
+
+```javascript
+const number = Promise.resolve(Math.random());
+
+number.then((result) => {
+  console.log(result);
+});
+
+number.then((result) => {
+  console.log(result);
+});
+
+number.then((result) => {
+  console.log(result);
+});
+
+```
+
+위 코드를 시키면 셋다 다른 수가찍힐것 같은데 세 개 모두 같은 값이 나오게 됩니다.
+프로미스로 생성된 비동기 인스턴스는 `한 번`만 실행됩니다.
+그래서 한 번 생성된 인스턴스에는 여러 번 then문을 실행해도 처음에 결정된 promise의 값을 보여줍니다.
+
+
+
 ---
 
 ### 참고자료
