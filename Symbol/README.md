@@ -44,8 +44,8 @@ console.log(sym3 === sym4);  // false
 ```
 
 그런데 심볼 타입에는 특이한 점이 하나 있다. 
-그것은 바로 Number, String, Boolean 타입과 달리 new 연산자를 이용한 래퍼 객체의 생성이 불가능하다는 점이다.
-new 연산자를 이용하여 래퍼런스 객체를 생성하려고 하면 TypeError가 발생한다.
+그것은 바로 Number, String, Boolean 타입과 달리 new 연산자를 이용한 래퍼(래퍼런스가 아닌 Wrapper) 객체의 생성이 불가능하다는 점이다.
+new 연산자를 이용하여 래퍼 객체를 생성하려고 하면 TypeError가 발생한다.
 new 연산자를 이용할 수 없다는 것은 곧 Symbol 함수를 생성자로 사용할 수 없음을 의미한다.
 
 
