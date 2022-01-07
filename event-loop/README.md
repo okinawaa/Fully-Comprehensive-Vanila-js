@@ -16,6 +16,8 @@
 ![image](https://user-images.githubusercontent.com/69495129/148482939-2b75541e-25b0-4485-aadb-0c38828740d9.png)
 
 
+---
+
 ### 비동기적인 코드 예제
 
 ```javascript
@@ -43,6 +45,8 @@ console.log("끝");
 10. Call Stack 을 비워주면서 console.log("중간") 이 실행된다 
 11. 끝
 
+
+---
 
 ### 다른 예제 비동기 함수가 2개!
 
@@ -82,6 +86,7 @@ console.log("끝");
 15. timeout의 callback 함수를 실행시킨다
 16. 끝
 
+---
 
 ### callback queue 의 우선순위
 
@@ -93,9 +98,20 @@ callback queue 의 내부에 종류들이 많다. callback queue 중에 `Task Qu
 `Microtask Queue > Animation Frames > Task Queue` 이다. 아까 Promise 같은경우는 `Microtask Queue` 에 속했고, setTimeout 같은 경우는 `Task Queue`
 에 속한다. 그래서 setTImeout 이 먼저 callback queue 에 들어갔다 할지언정, callback queue 에서 call stack 에 들어갈때는 microtask queue 의 분류인 promise 가 먼저 실행된다!
 
+---
+
+### 정리
+- 머리속으로 처음에말한 3가지 Call Stack , WEB APIs , Callback queue 이 세가지를 그려가면서 뭐가 들어가고 나가는지를 생각하며 코드를 진행하면 편하다.
+
+1. 코드가 호출스택에 쌓인 후, 실행되면 자바스크립트 엔진은 비동기 작업을 Web API에게 위임한다.
+2. Web API는 해당 비동기 작업을 수행하고, 콜백 함수를 이벤트 루프를 통해서 태스트 큐에 넘겨주게된다.
+3. 이벤트 루프는 콜스택에 쌓여있는 함수가 없을 때, 태스크 큐에서 대기하고 있던 콜백함수를 콜스택으로 넘겨준다.
+4. 콜스택에 쌓인 콜백함수가 실행되고, 콜스택에서 제거된다.
+
+
 
 ### 참조 자료
 
 - [우리밋님 강의](https://www.youtube.com/watch?v=S1bVARd2OSE)
-
+- [zereight님 블로그](https://zereight.tistory.com/855)
 
