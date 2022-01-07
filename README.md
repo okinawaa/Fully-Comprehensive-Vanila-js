@@ -34,6 +34,7 @@ JavaScript 에 대한 본질은 흔들리면 안된다고 생각하기에
 - [promise](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/promise)
 - [async-await](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/async-await)
 - [event-loop](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/event-loop)
+- [Symbol](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/Symbol)
 
 
 
