@@ -71,3 +71,9 @@ getData(function(tableData) {
 자리가 났을 때만 연락이 오기 때문에 미리 가서 기다릴 필요도 없고,
 직접 식당 안에 들어가서 자리가 비어 있는지 확인할 필요도 없습니다. 자리가 준비된 시점,
 즉 데이터가 준비된 시점에서만 저희가 원하는 동작(자리에 앉는다, 특정 값을 출력한다 등)을 수행할 수 있습니다.
+
+---
+
+### 참고 자료
+
+- [캡틴 판교님](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
