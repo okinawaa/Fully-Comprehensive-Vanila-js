@@ -31,4 +31,6 @@ JavaScript 에 대한 본질은 흔들리면 안된다고 생각하기에
 - [실행 컨텍스트](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/execution-context)
 - [closure](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/closure)
 - [async-callback](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/async-callback)
+- [promise](https://github.com/ChanhyukPark-Tech/Fully-Comprehensive-Vanila-js/tree/main/promise)
+
 
