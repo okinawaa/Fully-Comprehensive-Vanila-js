@@ -129,3 +129,7 @@ private한 메소드와 변수가 된 것을 알 수 있습니다.
 - 함수 그 자체가 갖고 있는 변수가 아닐지라도 함수 생성당시의 외부변수가 있었다면 변수 접근가능!
 - 클로저가 선언될 그 당시에 lexical 환경 관찰😊
 
+
+### 참고 문서
+
+- [김민수님 깃허브](https://github.com/ChanhyukPark-Tech/es_features/blob/master/etc/closure.md)
