@@ -5,7 +5,7 @@
 
 > The Observer pattern offers a subscription model in which objects subscribe to an event and get notified when the event occurs. This pattern is the cornerstone of event driven programming, including JavaScript. The Observer pattern facilitates good object-oriented design and promotes loose coupling.
 
-
+---
 중앙 집중식 저장소를 간단하게 `Store` 라고 표현해보자. `Store를` 구현하기 위해 먼저 `저장소(Store)`와 `컴포넌트(Component)`의 관계를 잘 살펴봐야 한다.
 
 - Store는 여러 개의 컴포넌트에서 사용될 수 있다..
@@ -49,6 +49,7 @@ store.notify();
 
 
 
+---
 ### Publish
 제일 먼저 `발행기관(Publish)`를 만들어보자.
 
@@ -87,7 +88,7 @@ class 발행기관 {
   this.구독자에게_알림();
 }
 ```
-
+---
 
 ### Subscriber
 
@@ -110,7 +111,7 @@ class 구독자 {
 - 구독자는 `발행기관에서 변화가 생겼을 때 하는 일을 정의`해야 한다.
 - 그리고 `발행기관을 구독` 한다.
 
-
+---
 ### Apply
 
 ```js
@@ -133,7 +134,7 @@ const 곱셈계산기 = new 구독자(() => console.log(`a * b = ${상태.a * �
 // a + b = 300
 // a * b = 20000
 ```
-
+---
 
 ### 참조 자료
 - [개발자 황준일](https://junilhwang.github.io/TIL/Javascript/Design/Vanilla-JS-Store/#_1-%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%8B%E1%85%A1%E1%86%BC-%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%89%E1%85%B5%E1%86%A8-%E1%84%89%E1%85%A1%E1%86%BC%E1%84%90%E1%85%A2%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5)
